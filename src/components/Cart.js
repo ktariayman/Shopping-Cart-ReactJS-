@@ -1,7 +1,7 @@
 import React,{useContext, useState, useEffect} from 'react'
 import {DataContext} from './DataProvider'
 import Colors from './Colors'
-import Sizes from './Sizes'
+import Sizes from ' ./Sizes'
 import {Link} from 'react-router-dom'
 function Cart() {
   const value = useContext(DataContext)
